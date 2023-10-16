@@ -34,3 +34,30 @@ allure-results
 
 build
 .gradle
+
+# Gradle-specific files and directories
+.gradle/
+build/
+out/
+buildSrc/
+
+# IDE-specific files and directories
+.idea/
+
+
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+
+
+# Gradle wrapper properties
+gradle-wrapper.properties
+gradle-wrapper.jar
+
+# Dependency cache directory
+.gradle/caches/
+
+# Local Gradle settings
+gradle-local.properties
